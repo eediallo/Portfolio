@@ -1,6 +1,6 @@
 /* Design tokens */
 :root {
-  --paper: #444;
+  --dark-gray: #444;
   --ink: hsla(244, 16%, 17%, 0.95);
   --brand: hsla(0, 79%, 63%, 0.9);
   --font: "Raleway", system-ui, sans-serif;
@@ -12,7 +12,7 @@
 html,
 body {
   scroll-behavior: smooth;
-  background: var(--paper);
+  background: var(--dark-gray);
   color: var(--ink);
   font-family: var(--font);
 }
