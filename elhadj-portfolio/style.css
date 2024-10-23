@@ -56,3 +56,9 @@ section p {
   line-height: 1.5;
   max-width: 55ch;
 }
+
+#contact div{
+  display: flex;
+ align-items: center;
+ gap: 30px;
+}
