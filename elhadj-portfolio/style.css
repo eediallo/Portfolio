@@ -57,8 +57,16 @@ section p {
   max-width: 55ch;
 }
 
+
+.project-grid{
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+
+
 #contact div{
   display: flex;
  align-items: center;
  gap: 30px;
 }
+
