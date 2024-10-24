@@ -85,3 +85,10 @@ section p {
   align-items: center;
   justify-content: space-between;
 }
+
+#profile-picture{
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
