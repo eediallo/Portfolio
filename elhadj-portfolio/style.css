@@ -82,4 +82,6 @@ section p {
 
 .hero{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
