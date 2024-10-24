@@ -1,6 +1,6 @@
 /* Design tokens */
 :root {
-  --dark-gray: #444;
+  --paper: #dcd9e8fc;
   --ink: hsla(244, 16%, 17%, 0.95);
   --brand: hsla(0, 79%, 63%, 0.9);
   --font: "Raleway", system-ui, sans-serif;
@@ -12,7 +12,7 @@
 html,
 body {
   scroll-behavior: smooth;
-  background: var(--dark-gray);
+  background: var(--paper);
   color: var(--ink);
   font-family: var(--font);
 }
@@ -78,4 +78,8 @@ section p {
  .connect-wrapper{
   display: flex;
   gap: 30px;
+}
+
+.hero{
+  display: flex;
 }
